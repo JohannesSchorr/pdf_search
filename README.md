@@ -3,6 +3,10 @@
 Determine if a given search-text is in one or a number of pdf's that is 
 given within a given search path
 
+## Dependencies
+
+For accessing the text of the pdf's the [pdfminer](https://pdfminersix.readthedocs.io/en/latest/)-package is needed, that must [be installed](https://pdfminersix.readthedocs.io/en/latest/tutorial/install.html) beforehand.
+
 ## Usage from Console
 
 ### Introduction
