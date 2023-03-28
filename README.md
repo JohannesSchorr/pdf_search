@@ -7,6 +7,8 @@ given within a given search path
 
 For accessing the text of the pdf's the [pdfminer](https://pdfminersix.readthedocs.io/en/latest/)-package is needed, that must [be installed](https://pdfminersix.readthedocs.io/en/latest/tutorial/install.html) beforehand.
 
+Furthermore, ``pdf_search`` depends on [pathlib](https://docs.python.org/3/library/pathlib.html) and [re](https://docs.python.org/3/library/re.html) that are both given in the [Standard-Library](https://docs.python.org/3/) of Python 3.
+
 ## Usage
 
 ### Usage from Console
@@ -48,4 +50,4 @@ And you want to filter those papers writen by a specific author, but the naming 
 
 Now, you could open every paper and look for the specific name until you find the desired one. 
 This is a tedious task and by the way very time-consuming and boooooooring.
-Here, ``pdf_search`` comes into play and will do that task for you while you may - fo example - drink a cup of coffee.
+Here, ``pdf_search`` comes into play and will do that task for you while you may - for example - drink a cup of coffee.
